@@ -1,48 +1,79 @@
-# Data Visualization Project
+Solution 1 — README.md 
 
-## Data
+Data Visualization Project
 
-The data I propose to visualize for my project is ...
+Data
+
+The data I propose to visualize for my project is the Nobel Laureates dataset from Kaggle:
+https://www.kaggle.com/datasets/nobelfoundation/nobel-laureates
+
+It contains detailed information on Nobel Prize winners from 1901 to the present, including year, category, laureate demographics, affiliations, and prize share.
 
 
-## Questions & Tasks
+---
+
+Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+How many Nobel Prizes have been awarded across different categories?
 
-## Sketches
+How does the distribution of prizes by category change over time?
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+Are there noticeable differences in gender or nationality among laureates?
+
+Which organizations and countries have the most affiliated Nobel winners?
 
 
-## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+---
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+Sketches
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+Sketch 1: Nobel Prizes Distribution by Category
 
-You can put images into here by pasting them into issues.
+A bar chart where the x-axis is the category (Physics, Chemistry, Medicine, Literature, Peace, Economics) and the y-axis is the number of laureates.
 
-You can make images into links like this:
+Interaction ideas: hover to see counts and percentages, filter by decade or gender in future versions.
 
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
+This directly answers: “How many Nobel Prizes have been awarded across different categories?”
 
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
-## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
 
-## Milestones
+---
 
-(for each week, estimate what would be accomplised)
+Prototypes
+
+I’ve created a proof of concept visualization of this data.
+It’s a bar chart showing the total number of Nobel laureates by category, using D3.js and a cleaned CSV from the Kaggle dataset.
+
+Screenshot placeholder (replace with your own once you run the code):
+
+
+
+
+---
+
+Open Questions
+
+Should I normalize counts by decade to avoid the growth over time dominating the view?
+
+Do I need to separate individuals from organizations in the counts?
+
+How should I handle shared prizes (1/2, 1/3, 1/4 shares) — count as one laureate each, or weight by share?
+
+
+
+---
+
+Milestones
+
+Week 1: Basic bar chart of laureates by category (✅ current prototype)
+
+Week 2: Add filters for decade and gender
+
+Week 3: Add map of laureate birth countries and organizational affiliations
+
+Week 4: Finalize dashboard with interactivity and polish.
