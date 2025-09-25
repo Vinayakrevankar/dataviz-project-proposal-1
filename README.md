@@ -34,9 +34,6 @@ Sketch 1: Nobel Prizes Distribution by Category
 
 A bar chart where the x-axis is the category (Physics, Chemistry, Medicine, Literature, Peace, Economics) and the y-axis is the number of laureates.
 
-<img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
-
-
 Interaction ideas: hover to see counts and percentages, filter by decade or gender in future versions.
 
 This directly answers: “How many Nobel Prizes have been awarded across different categories?”
@@ -52,7 +49,7 @@ Prototypes
 I’ve created a proof of concept visualization of this data.
 It’s a bar chart showing the total number of Nobel laureates by category, using D3.js and a cleaned CSV from the Kaggle dataset.
 
-Screenshot placeholder (replace with your own once you run the code):
+<img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
 
 
 
