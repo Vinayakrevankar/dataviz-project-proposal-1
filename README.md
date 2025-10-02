@@ -34,12 +34,18 @@ Sketch 1: Nobel Prizes Distribution by Category
 
 A bar chart where the x-axis is the category (Physics, Chemistry, Medicine, Literature, Peace, Economics) and the y-axis is the number of laureates.
 
-Interaction ideas: hover to see counts and percentages, filter by decade or gender in future versions.
+Future Interaction ideas: hover to see counts and percentages, filter by decade or gender in future versions.
 
 This directly answers: “How many Nobel Prizes have been awarded across different categories?”
 
+---
+Sketch 2: Nobel Prizes Awarded Over Time
 
+A line chart where the x-axis is time (by decade) and the y-axis is the number of Nobel Prizes awarded. Each line represents a prize category.
 
+Future Interaction ideas:
+Filter by specific category (e.g., Physics only, or Peace only).
+Highlight key historical periods such as the World Wars or the addition of the Economics prize in 1969.
 
 
 ---
