@@ -44,13 +44,27 @@ This directly answers: “How many Nobel Prizes have been awarded across differe
 
 ---
 
-Prototypes
+Prototypes 1:
 
 I’ve created a proof of concept visualization of this data.
 It’s a bar chart showing the total number of Nobel laureates by category, using D3.js and a cleaned CSV from the Kaggle dataset.
 
 <img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
 
+
+
+Prototype 2
+
+Line Chart (Nobel Prizes per Decade by Category)
+I created a line chart showing the number of Nobel Prizes awarded per decade, broken down by category (Medicine, Physics, Chemistry, Literature, Peace, Economics).
+This visualization highlights how Nobel Prizes have changed over time:
+Medicine, Physics, and Chemistry dominate throughout the 20th century.
+Economics appears only after 1969, when the prize was first established.
+Peace and Literature remain consistently smaller in number compared to the science prizes.
+Peaks and dips align with historical contexts — for example, global wars and social movements.
+This prototype extends beyond the static category totals from the bar chart and begins to capture temporal patterns, which is crucial for understanding the evolution of Nobel Prizes.
+
+<img width="1642" height="970" alt="image" src="https://github.com/user-attachments/assets/fec9104b-00bb-4b07-a396-fe1cdb5d687c" />
 
 
 
