@@ -108,7 +108,13 @@ It’s a bar chart showing the total number of Nobel laureates by category, usin
 VizHub - https://vizhub.com/Vinayakrevankar/bad3af9c4b7d4ee5a2b63a1add1f3ad2
 
 ---
-Prototype 2:
+Prototype 2: Line Chart (Nobel Prizes per Decade by Category)
+I created a line chart showing Nobel Prizes awarded per decade, broken down by category (Medicine, Physics, Chemistry, Literature, Peace, Economics).
+This visualization highlights:
+Medicine, Physics, and Chemistry dominate throughout the 20th century.
+Economics appears only after 1969.
+Peace and Literature remain consistently smaller in number.
+Peaks and dips align with historical events.
 
 <img width="1228" height="732" alt="image" src="https://github.com/user-attachments/assets/1e6d7d19-3f0e-4574-a2ab-218a2f5e80c7" />
 
