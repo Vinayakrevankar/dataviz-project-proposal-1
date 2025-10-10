@@ -123,12 +123,11 @@ VizHub - https://vizhub.com/Vinayakrevankar/13061a401abe428f8f7328391c57204b
 
 ---
 
-Prototype 2.1: - Based on Feedback
-Added checkboxes to allow users to filter and display only the required data on the graph. This enhancement improves interactivity and makes it easier to focus on specific datasets or parameters as needed.
+Prototype 2.1: Based on Feedback I have added checkboxes to allow users to filter and display only the required data on the graph. This enhancement improves interactivity and makes it easier to focus on specific datasets or parameters as needed.
 
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/ac51a637-5cd1-4ff5-88cd-4304898c6457" />
 
-https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
+VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 ---
 
