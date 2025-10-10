@@ -142,15 +142,3 @@ Do I need to separate individuals from organizations in the counts?
 How should I handle shared prizes (1/2, 1/3, 1/4 shares) — count as one laureate each, or weight by share?
 
 
-
----
-
-Milestones
-
-Week 1: Basic bar chart of laureates by category (current prototype)
-
-Week 2: Add filters for decade and gender
-
-Week 3: Add map of laureate birth countries and organizational affiliations
-
-Week 4: Finalize dashboard with interactivity and polish.
