@@ -42,20 +42,21 @@ Sketch 2: Nobel Prizes Awarded Over Time
 
 A line chart where the x-axis is time (by decade) and the y-axis is the number of Nobel Prizes awarded. Each line represents a prize category.
 
-Future Interaction ideas:
-Filter by specific category (e.g., Physics only, or Peace only).
-Highlight key historical periods such as the World Wars or the addition of the Economics prize in 1969.
+Future Interaction ideas:<br>
+Filter by specific category (e.g., Physics only, or Peace only).<br>
+Highlight key historical periods such as the World Wars or the addition of the Economics prize in 1969.<br>
 
 ---
 
 Sketch 3: Nobel Prizes by Country (Choropleth Map)
-This sketch represents a world map visualization where each country is shaded based on the number of Nobel Prizes associated with it — either through birth country or organization affiliation.
+This sketch represents a world map visualization where each country is shaded based on the number of Nobel Prizes associated with it — either through birth country or organization affiliation.<br>
 Purpose:
 To reveal the geographical concentration of Nobel laureates and highlight how recognition varies across regions.
-Planned Insights:
-Identify the most represented countries (e.g., United States, UK, Germany, France).
-Compare the dominance of Western nations versus emerging contributors.
-Provide a global context to complement the previous category and timeline analyses.
+
+Planned Insights:<br>
+Identify the most represented countries (e.g., United States, UK, Germany, France).<br>
+Compare the dominance of Western nations versus emerging contributors.<br>
+Provide a global context to complement the previous category and timeline analyses.<br>
 
 Future Interaction Ideas:
 Hover tooltips showing country names and prize counts.
@@ -68,11 +69,11 @@ Sketch 4 - Nobel Laureates by Category and Country (Treemap Visualization)
 This sketch represents a Treemap that visualizes the hierarchical distribution of Nobel Prizes by category and birth country (or organization).
 Each rectangle’s size corresponds to the number of laureates, and the color can indicate either prize category or region.
 Purpose:
-To explore the relative contribution of each country within different Nobel categories and to visually compare the scale of achievements across categories and geographies.
-Planned Insights:
-Quickly identify which categories dominate globally (e.g., Medicine and Physics).
-See which countries contribute most within each category.
-Highlight how Nobel Prizes are distributed not just overall, but hierarchically — from category → country.
+To explore the relative contribution of each country within different Nobel categories and to visually compare the scale of achievements across categories and geographies.<br>
+Planned Insights:<br>
+Quickly identify which categories dominate globally (e.g., Medicine and Physics).<br>
+See which countries contribute most within each category.<br>
+Highlight how Nobel Prizes are distributed not just overall, but hierarchically — from category → country. <br>
 
 Future Interaction Ideas:<br>
 Hover tooltips showing category, country, and laureate count.<br>
@@ -123,7 +124,7 @@ VizHub - https://vizhub.com/Vinayakrevankar/13061a401abe428f8f7328391c57204b
 ---
 
 Prototype 2.1: - Based on Feedback
-I have added checkbox so that we can filter what is required on viz
+Added checkboxes to allow users to filter and display only the required data on the graph. This enhancement improves interactivity and makes it easier to focus on specific datasets or parameters as needed.
 
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/ac51a637-5cd1-4ff5-88cd-4304898c6457" />
 
@@ -140,6 +141,7 @@ The United States, United Kingdom, Germany, and France appear as major hubs for 
 Countries in Europe and North America dominate the upper ranges, while most regions in Africa and parts of Asia have lighter shades, indicating fewer laureates.
 The map uses an intuitive color gradient and legend for clear interpretation.
 This phase shifts the project focus from purely categorical or temporal analysis to spatial understanding, showing how Nobel recognition is distributed around the world.
+
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
 
 VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
