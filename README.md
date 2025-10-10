@@ -156,7 +156,7 @@ Tooltips display the country, category, and total laureates when hovered.
 <img width="964" height="556" alt="image" src="https://github.com/user-attachments/assets/e69654d3-7b00-47f0-bffc-e690c29f9f0d" />
 
 
-VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
+VizHub - https://vizhub.com/Vinayakrevankar/53e394cc97c9490487ca9535e4bdad09
 
 --- 
 
