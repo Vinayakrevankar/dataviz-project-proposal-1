@@ -147,7 +147,7 @@ How should I handle shared prizes (1/2, 1/3, 1/4 shares) — count as one laurea
 
 Milestones
 
-Week 1: Basic bar chart of laureates by category (✅ current prototype)
+Week 1: Basic bar chart of laureates by category (current prototype)
 
 Week 2: Add filters for decade and gender
 
