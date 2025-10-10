@@ -126,7 +126,21 @@ VizHub - https://vizhub.com/Vinayakrevankar/6582b154c0b54ce4a5ca8a039b31e788
 
 --- 
 
-Prototype 5 -
+Prototype 5 - Spotify Song Popularity Over Time (Heatmap Visualization)
+
+This sketch represents a Heatmap showing how the average popularity of music genres has changed from 2010 to 2019.
+The x-axis represents the year, and the y-axis represents music genres. The color intensity indicates the average popularity score — darker colors represent higher popularity.
+Purpose:
+To visualize the temporal evolution of music trends across genres and identify which styles gained or lost popularity over time.
+Planned Insights:
+Observe which genres dominated specific periods (e.g., EDM in mid-2010s, Hip Hop rise toward 2019).
+Detect cyclical patterns or consistent popularity among certain genres like Pop or Dance.
+Compare how emerging subgenres (e.g., “Tropical House,” “Alternative R&B”) evolved through the decade.
+
+Future Interaction Ideas: <br>
+Hover tooltips showing exact popularity values per genre-year pair.<br>
+Filtering by region or artist type (mainstream vs. indie).<br>
+Smooth transitions or animations to illustrate yearly change progression.<br>
 
 <img width="1260" height="724" alt="image" src="https://github.com/user-attachments/assets/fae25d03-3287-44bf-9587-fb8cf601391c" />
 
