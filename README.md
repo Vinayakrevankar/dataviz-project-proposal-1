@@ -126,8 +126,14 @@ https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 ---
 
 
-Prototype 3: 
-
+Prototype 3: Choropleth Map – Nobel Prizes Won by Country
+I created a choropleth map showing the global distribution of Nobel Prizes by country, based on the laureate’s birth country or affiliated organization.
+Each country is shaded according to the number of prizes associated with it — darker shades indicate more laureates.
+This visualization helps reveal geographic trends in Nobel achievements:
+The United States, United Kingdom, Germany, and France appear as major hubs for Nobel winners.
+Countries in Europe and North America dominate the upper ranges, while most regions in Africa and parts of Asia have lighter shades, indicating fewer laureates.
+The map uses an intuitive color gradient and legend for clear interpretation.
+This phase shifts the project focus from purely categorical or temporal analysis to spatial understanding, showing how Nobel recognition is distributed around the world.
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
 
 VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
@@ -135,7 +141,18 @@ VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
 ---
 
 
-Prototype 4:
+Prototype 4: Treemap – Hierarchical Distribution of Nobel Prizes
+I created a Treemap visualizing Nobel Prizes hierarchically by category and country, where each block’s size reflects the number of laureates.
+This visualization builds on the previous map by shifting from geographical location to hierarchical relationships, making it easier to see which countries lead within each prize category.
+Key Observations:
+Medicine, Physics, and Chemistry form the largest sections, confirming their dominance in Nobel history.
+Within each category, United States, United Kingdom, and Germany occupy the most significant areas.
+Smaller but consistent contributors such as France, Sweden, and Japan appear across multiple categories, highlighting long-term participation.
+Design Notes:
+Implemented in D3.js, aggregating laureates by (category, birth_country).
+Each rectangle is color-coded by category for visual separation.
+Tooltips display the country, category, and total laureates when hovered.
+
 <img width="964" height="556" alt="image" src="https://github.com/user-attachments/assets/e69654d3-7b00-47f0-bffc-e690c29f9f0d" />
 
 
@@ -143,8 +160,19 @@ VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 --- 
 
-
-Prototype 5:
+Prototype 5: Spotify Genre Popularity Heatmap (2010–2019)
+I created a Heatmap visualization displaying average song popularity by genre and year from 2010 to 2019 using D3.js.
+Each cell’s color corresponds to the mean popularity score of songs within that genre for a given year.
+Key Observations:
+Pop, Dance Pop, and Hip Hop maintain consistent high popularity throughout the decade.
+A surge in EDM, Tropical House, and Alternative R&B is visible between 2013–2017, reflecting global electronic trends.
+Some niche genres like Baroque Pop or Irish Singer-Songwriter appear sporadically, suggesting momentary regional or viral influence.
+Popularity diversification increased post-2015, showing more evenly distributed interest across genres.
+Design Notes:
+Implemented in D3.js with a color scale from light (low popularity) to dark (high popularity).
+Dataset sourced from Spotify API / Kaggle data.
+Each rectangle represents the mean popularity value of a genre-year pair.
+The color legend provides intuitive reference for trend strength.
 
 <img width="1260" height="724" alt="image" src="https://github.com/user-attachments/assets/fae25d03-3287-44bf-9587-fb8cf601391c" />
 
