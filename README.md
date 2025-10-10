@@ -85,7 +85,7 @@ https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 ---
 
-Prototype 3 -  Nobel Prizes by Country (Choropleth Map)
+Sketch 3 -  Nobel Prizes by Country (Choropleth Map)
 This sketch represents a world map visualization where each country is shaded based on the number of Nobel Prizes associated with it — either through birth country or organization affiliation.
 Purpose:
 To reveal the geographical concentration of Nobel laureates and highlight how recognition varies across regions.
@@ -104,7 +104,7 @@ Click on a country to filter the timeline or category charts dynamically.<br>
 
 ---
 
-Prototype 4 - Nobel Laureates by Category and Country (Treemap Visualization)
+Sketch 4 - Nobel Laureates by Category and Country (Treemap Visualization)
 
 This sketch represents a Treemap that visualizes the hierarchical distribution of Nobel Prizes by category and birth country (or organization).
 Each rectangle’s size corresponds to the number of laureates, and the color can indicate either prize category or region.
@@ -126,7 +126,7 @@ VizHub - https://vizhub.com/Vinayakrevankar/6582b154c0b54ce4a5ca8a039b31e788
 
 --- 
 
-Prototype 5 - Spotify Song Popularity Over Time (Heatmap Visualization)
+Sketch 5 - Spotify Song Popularity Over Time (Heatmap Visualization)
 
 This sketch represents a Heatmap showing how the average popularity of music genres has changed from 2010 to 2019.
 The x-axis represents the year, and the y-axis represents music genres. The color intensity indicates the average popularity score — darker colors represent higher popularity.
