@@ -185,6 +185,17 @@ The color legend provides intuitive reference for trend strength.
 
 VizHub - https://vizhub.com/Vinayakrevankar/6582b154c0b54ce4a5ca8a039b31e788
 
+Prototype 6: 
+
+I created an interactive scatter plot using D3.js and React to visualize how songs differ in Energy and Danceability across various genres.
+Each bubble represents a song, the color indicates its genre, and the bubble size reflects its popularity.
+I also added checkbox filters that allow users to toggle individual genres on or off, dynamically updating the chart to focus on specific musical styles.
+
+<img width="1360" height="692" alt="image" src="https://github.com/user-attachments/assets/c493c244-9e82-457f-bd43-9063fe5dd0ec" />
+
+VizHub - <a href="https://vizhub.com/Vinayakrevankar/788a38aa88704de795301daf53b07694?file=App.js"> Prototype Link </a>
+
+
 ---
 
 Open Questions
