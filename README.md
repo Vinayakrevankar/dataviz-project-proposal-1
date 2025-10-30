@@ -30,6 +30,8 @@ Scientific categories like Medicine, Physics, and Chemistry show a clear increas
 Peace and Literature remain steady across decades, reflecting slower growth compared to scientific fields.<br>
 The stacked structure emphasizes how the overall volume of Nobel Prizes has grown, especially after the 1950s.<br>
 
+VizHub - <a href="https://vizhub.com/Vinayakrevankar/9c343639e1464ab99a791dc46bf618e6"> Prototype Link </a>
+
 https://github.com/user-attachments/assets/157b4fa7-8b7d-4481-b5b0-467065e8fbe7
 
 ## Prototype 2:
