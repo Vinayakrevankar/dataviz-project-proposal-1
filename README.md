@@ -124,6 +124,7 @@ What It Reveals
 Categories with the largest number of films involved
 Films that dominate particular award areas
 Overall structure of Oscar nominations by type
+
 8.⁠ ⁠Class–Category–Film Sunburst (Radial Hierarchy)
 A three-level sunburst showing:
 Outer Ring → Films
