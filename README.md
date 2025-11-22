@@ -151,7 +151,7 @@ Sound and technical awards make up a large portion of modern Oscars
 Shows how many films received nominations or wins in each decade.
 Insights
 Dramatic growth after 1970s
-Spike in decades with industry expansion (e.g., 1990s–2010s)
+Spike in decades with industry expansion (e.g., 1990s–2010s) 
 Early decades have fewer films due to smaller industry scale
 
 <img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
