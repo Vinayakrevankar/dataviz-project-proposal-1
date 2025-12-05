@@ -124,15 +124,6 @@ VizHub - <a href="https://vizhub.com/Vinayakrevankar/9c343639e1464ab99a791dc46bf
 
 https://github.com/user-attachments/assets/157b4fa7-8b7d-4481-b5b0-467065e8fbe7
 
-## Prototype 6:
-
-I created an interactive scatter plot to visualize how songs vary in Energy and Danceability across different genres. Each bubble represents a song, with its color indicating the genre and its size reflecting popularity. The visualization also includes checkbox filters that let users toggle genres on or off, dynamically updating the chart to focus on specific musical styles.
-
-<img width="1360" height="692" alt="image" src="https://github.com/user-attachments/assets/c493c244-9e82-457f-bd43-9063fe5dd0ec" />
-
-VizHub - <a href="https://vizhub.com/Vinayakrevankar/788a38aa88704de795301daf53b07694?file=App.js"> Prototype Link </a>
-
-
 ## Dashboard: The Oscar Awards Dataset from Kaggle.
 It contains detailed historical information on Academy Award nominations and wins, including films, nominees, award categories, and award years.
 The dashboard visualizes different facets of Oscar history using multiple linked, interactive views.
