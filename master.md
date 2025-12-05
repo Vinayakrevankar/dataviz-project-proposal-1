@@ -1,106 +1,36 @@
 Data Visualization Project
 
-Data
 
-The data I propose to visualize for my project is the Nobel Laureates dataset from Kaggle:
-https://www.kaggle.com/datasets/nobelfoundation/nobel-laureates
+Dataset Overview
 
-It contains detailed information on Nobel Prize winners from 1901 to the present, including year, category, laureate demographics, affiliations, and prize share.
+Dataset: The Nobel Prize Dataset (Kaggle)
+Coverage: 1901–2024
+Fields Include:
+Prize category
+Year
+Laureate name
+Country
+Prize share
+Motivation text
+Gender
+Organization / affiliation
+This dataset is ideal for visualization because it mixes categorical, temporal, geographic, and hierarchical data.
 
+2. Project Goals
+The project focuses on answering questions such as:
+Which countries have produced the most Nobel laureates?
+How have prize categories grown or changed over time?
+Which categories dominate different decades?
+How do scientific categories compare to peace and literature?
+What long-term global patterns are visible?
+To answer these, I created a series of prototypes, each introducing different interactions and encoding techniques.
 
----
-
-Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-
-How many Nobel Prizes have been awarded across different categories?
-
-How does the distribution of prizes by category change over time?
-
-Are there noticeable differences in gender or nationality among laureates?
-
-Which organizations and countries have the most affiliated Nobel winners?
-
-
----
-
-Sketches
-
-Sketch 1: Nobel Prizes Distribution by Category
-
-A bar chart where the x-axis is the category (Physics, Chemistry, Medicine, Literature, Peace, Economics) and the y-axis is the number of laureates.
-
-Future Interaction ideas: hover to see counts and percentages, filter by decade or gender in future versions.
-
-This directly answers: “How many Nobel Prizes have been awarded across different categories?”
-
----
-Sketch 2: Nobel Prizes Awarded Over Time
-
-A line chart where the x-axis is time (by decade) and the y-axis is the number of Nobel Prizes awarded. Each line represents a prize category.
-
-Future Interaction ideas:<br>
-Filter by specific category (e.g., Physics only, or Peace only).<br>
-Highlight key historical periods such as the World Wars or the addition of the Economics prize in 1969.<br>
 
 ---
 
-Sketch 3: Nobel Prizes by Country (Choropleth Map)
-This sketch represents a world map visualization where each country is shaded based on the number of Nobel Prizes associated with it — either through birth country or organization affiliation.<br>
-Purpose:
-To reveal the geographical concentration of Nobel laureates and highlight how recognition varies across regions.
-
-Planned Insights:<br>
-Identify the most represented countries (e.g., United States, UK, Germany, France).<br>
-Compare the dominance of Western nations versus emerging contributors.<br>
-Provide a global context to complement the previous category and timeline analyses.<br>
-
-Future Interaction Ideas:
-Hover tooltips showing country names and prize counts.
-Toggle between birth country and organization country views.
-Click on a country to filter the timeline or category charts dynamically.
-
----
-Sketch 4 - Nobel Laureates by Category and Country (Treemap Visualization)
-
-This sketch represents a Treemap that visualizes the hierarchical distribution of Nobel Prizes by category and birth country (or organization).
-Each rectangle’s size corresponds to the number of laureates, and the color can indicate either prize category or region.
-Purpose:
-To explore the relative contribution of each country within different Nobel categories and to visually compare the scale of achievements across categories and geographies.<br>
-Planned Insights:<br>
-Quickly identify which categories dominate globally (e.g., Medicine and Physics).<br>
-See which countries contribute most within each category.<br>
-Highlight how Nobel Prizes are distributed not just overall, but hierarchically — from category → country. <br>
-
-Future Interaction Ideas:<br>
-Hover tooltips showing category, country, and laureate count.<br>
-Click to zoom into a single category or region.<br>
-
----
-
-Sketch 5 - Spotify Song Popularity Over Time (Heatmap Visualization)
-
-This sketch represents a Heatmap showing how the average popularity of music genres has changed from 2010 to 2019.
-The x-axis represents the year, and the y-axis represents music genres. The color intensity indicates the average popularity score — darker colors represent higher popularity.
-Purpose:
-To visualize the temporal evolution of music trends across genres and identify which styles gained or lost popularity over time.
-Planned Insights:
-Observe which genres dominated specific periods (e.g., EDM in mid-2010s, Hip Hop rise toward 2019).
-Detect cyclical patterns or consistent popularity among certain genres like Pop or Dance.
-Compare how emerging subgenres (e.g., “Tropical House,” “Alternative R&B”) evolved through the decade.
-
-Future Interaction Ideas: <br>
-Hover tooltips showing exact popularity values per genre-year pair.<br>
-Filtering by region or artist type (mainstream vs. indie).<br>
-Smooth transitions or animations to illustrate yearly change progression.<br>
-
----
-
-Prototype 1:
-
-I’ve created a proof of concept visualization of this data.
-It’s a bar chart showing the total number of Nobel laureates by category, using D3.js and a cleaned CSV from the Kaggle dataset.
+Prototype 1: Bar Chart: Nobel Prizes by Category
+I created a simple proof-of-concept visualization showing the total number of Nobel laureates in each major prize category. This bar chart provides a quick overview of how awards are distributed across fields such as Medicine, Physics, Chemistry, Peace, Literature, and Economics. The data was loaded from a cleaned CSV derived from the Kaggle Nobel Laureates dataset and rendered using D3.js.
+This visualization establishes a baseline understanding of the dataset and helps highlight which categories dominate historically. Medicine, Physics, and Chemistry have the highest counts, while Literature, Peace, and Economics show comparatively fewer awards.
 
 <img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
 
@@ -129,7 +59,6 @@ VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 ---
 
-
 Prototype 3: Choropleth Map – Nobel Prizes Won by Country
 I created a choropleth map showing the global distribution of Nobel Prizes by country, based on the laureate’s birth country or affiliated organization.
 Each country is shaded according to the number of prizes associated with it — darker shades indicate more laureates.
@@ -145,7 +74,6 @@ VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
 
 ---
 
-
 Prototype 4: Treemap – Hierarchical Distribution of Nobel Prizes
 I created a Treemap visualizing Nobel Prizes hierarchically by category and country, where each block’s size reflects the number of laureates.
 This visualization builds on the previous map by shifting from geographical location to hierarchical relationships, making it easier to see which countries lead within each prize category.
@@ -159,7 +87,6 @@ Each rectangle is color-coded by category for visual separation.
 Tooltips display the country, category, and total laureates when hovered.
 
 <img width="964" height="556" alt="image" src="https://github.com/user-attachments/assets/e69654d3-7b00-47f0-bffc-e690c29f9f0d" />
-
 
 VizHub - https://vizhub.com/Vinayakrevankar/53e394cc97c9490487ca9535e4bdad09
 
@@ -183,6 +110,8 @@ The color legend provides intuitive reference for trend strength.
 
 VizHub - https://vizhub.com/Vinayakrevankar/6582b154c0b54ce4a5ca8a039b31e788
 
+---
+
 Prototype 6: 
 
 I created an interactive scatter plot to visualize how songs vary in Energy and Danceability across different genres. Each bubble represents a song, with its color indicating the genre and its size reflecting popularity. The visualization also includes checkbox filters that let users toggle genres on or off, dynamically updating the chart to focus on specific musical styles.
@@ -190,7 +119,6 @@ I created an interactive scatter plot to visualize how songs vary in Energy and 
 <img width="1360" height="692" alt="image" src="https://github.com/user-attachments/assets/c493c244-9e82-457f-bd43-9063fe5dd0ec" />
 
 VizHub - <a href="https://vizhub.com/Vinayakrevankar/788a38aa88704de795301daf53b07694?file=App.js"> Prototype Link </a>
-
 
 ---
 
@@ -333,14 +261,6 @@ Early decades have fewer films due to smaller industry scale
 <img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
 
 VizHub - <a href="https://vinayakrevankar.com/data-visualization/"> Prototype Link </a> 
-
---
-
-Open Questions
-
-Should I normalize counts by decade to avoid the growth over time dominating the view?
-
-Do I need to separate individuals from organizations in the counts?
 
 How should I handle shared prizes (1/2, 1/3, 1/4 shares) — count as one laureate each, or weight by share?
 
