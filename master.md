@@ -40,6 +40,22 @@ This dataset is ideal for visualization because it contains rich quantitative at
 
 ---
 
+Dataset: The Oscar Awards Dataset (Kaggle)
+
+The Oscar Awards dataset contains detailed historical information on Academy Award nominations and wins. It spans nearly a century of film history and includes thousands of records across major, technical, honorary, and discontinued categories. This dataset is ideal for visualization because it captures temporal trends, hierarchical award structures, and rich relationships between films, people, and award categories.<br>
+Coverage:<br>
+Years: 1927–2025<br>
+Records include:<br>
+Award category<br>
+Year<br>
+Film title<br>
+Nominee / Winner<br>
+Win or nomination indicator<br>
+Class of award (Acting, Directing, Technical, etc.)<br>
+This dataset allows exploration across multiple analytical dimensions, including how Oscar categories evolved over time, which films and individuals dominate the awards landscape, and how nomination patterns change across decades.<br>
+
+---
+
 # Project Goals
 
 Nobel Prize Dataset Goals
@@ -53,6 +69,13 @@ Spotify Dataset Goals
 How has the popularity of different music genres changed over the 2010–2019 decade?
 Which genres experienced major surges or declines during specific periods (e.g., rise of EDM, Tropical House)?
 How do track attributes such as energy and danceability vary across genres?
+
+Oscar Dataset Goals
+How do Oscar nominations and wins vary across decades?
+Which categories grow significantly due to technological shifts (e.g., VFX, Sound Editing)?
+How do major categories like Acting and Directing compare with technical and production awards?
+Which films and individuals have historically dominated the Oscars?
+How does the structure of awards (Class → Category → Film) reveal deeper relationships within the industry?
 
 ---
 
