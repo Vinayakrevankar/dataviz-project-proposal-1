@@ -234,7 +234,7 @@ Dramatic growth after 1970s
 Spike in decades with industry expansion (e.g., 1990s-2010s) 
 Early decades have fewer films due to smaller industry scale
 
-<img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
+<img width="2984" height="5674" alt="image" src="https://github.com/user-attachments/assets/3848f5ad-9330-474d-b1e4-dd1013af45d1" />
 
 VizHub - <a href="https://vinayakrevankar.com/data-visualization/"> Prototype Link </a> 
 
