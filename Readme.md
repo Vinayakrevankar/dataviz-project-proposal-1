@@ -59,7 +59,9 @@ Bar charts are ideal for comparing categorical data. Sorting the bars makes rank
 - Western Europe shows dense representation.  
 - There is a long tail of countries with only 1–3 laureates.
 
-_Insert bar chart screenshot here_
+<img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
+
+VizHub - https://vizhub.com/Vinayakrevankar/bad3af9c4b7d4ee5a2b63a1add1f3ad2
 
 ---
 
@@ -77,7 +79,9 @@ This line chart shows yearly award totals for a selected category.
 - Peace prizes skip several years.  
 - Scientific fields show steep growth after mid-century.
 
-_Insert line chart screenshot here_
+<img width="1228" height="732" alt="image" src="https://github.com/user-attachments/assets/1e6d7d19-3f0e-4574-a2ab-218a2f5e80c7" />
+
+VizHub - https://vizhub.com/Vinayakrevankar/13061a401abe428f8f7328391c57204b
 
 ---
 
@@ -101,7 +105,10 @@ This visualization extends the bar chart concept into a stacked bar chart showin
 - Peace and Literature remain comparatively stable.  
 - Stacking clarifies overall growth trends over time.
 
-_Insert stacked bar chart screenshot here_
+VizHub - <a href="https://vizhub.com/Vinayakrevankar/9c343639e1464ab99a791dc46bf618e6"> Prototype Link </a>
+
+https://github.com/user-attachments/assets/157b4fa7-8b7d-4481-b5b0-467065e8fbe7
+
 
 ---
 
@@ -119,7 +126,9 @@ This visualization maps Nobel Prize distribution by country.
 - Asian representation rises in modern decades.  
 - Very limited representation across Africa.
 
-_Insert choropleth map screenshot here_
+<img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
+
+VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
 
 ---
 
@@ -137,7 +146,10 @@ This treemap explores hierarchical relationships between prize categories and in
 - Scientific categories produce the largest laureate groupings.  
 - Peace prizes appear more evenly distributed across recipients.
 
-_Insert treemap screenshot here_
+<img width="964" height="556" alt="image" src="https://github.com/user-attachments/assets/e69654d3-7b00-47f0-bffc-e690c29f9f0d" />
+
+
+VizHub - https://vizhub.com/Vinayakrevankar/53e394cc97c9490487ca9535e4bdad09
 
 ---
 
@@ -167,7 +179,9 @@ The final stage unified all prototypes into a single interactive dashboard.
 
 This integrated design creates a connected exploratory environment where users can transition seamlessly between trends, geographic patterns, categorical breakdowns, and high-level summaries.
 
-_Insert main dashboard screenshot here_
+<img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
+
+VizHub - https://vinayakrevankar.com/data-visualization/
 
 ---
 
