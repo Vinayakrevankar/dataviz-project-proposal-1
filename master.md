@@ -41,13 +41,18 @@ This dataset is ideal for visualization because it contains rich quantitative at
 ---
 
 # Project Goals
-The project focuses on answering questions such as:<br>
-Which countries have produced the most Nobel laureates?<br>
-How have prize categories grown or changed over time?<br>
-Which categories dominate different decades?<br>
-How do scientific categories compare to peace and literature?<br>
-What long-term global patterns are visible?<br>
-To answer these, I created a series of prototypes, each introducing different interactions and encoding techniques.<br>
+
+Nobel Prize Dataset Goals
+Which countries have produced the most Nobel laureates?
+How have prize categories grown or changed over time?
+Which categories dominate different decades?
+How do scientific categories compare to Peace and Literature categories?
+What long-term global or hierarchical patterns are visible across laureates, categories, and countries?
+
+Spotify Dataset Goals
+How has the popularity of different music genres changed over the 2010–2019 decade?
+Which genres experienced major surges or declines during specific periods (e.g., rise of EDM, Tropical House)?
+How do track attributes such as energy and danceability vary across genres?
 
 ---
 
