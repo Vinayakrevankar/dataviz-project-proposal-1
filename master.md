@@ -1,30 +1,31 @@
 Data Visualization Project
 
 
-Dataset Overview
+# Dataset Overview
 
 Dataset: The Nobel Prize Dataset (Kaggle)
+
 Coverage: 1901–2024
-Fields Include:
-Prize category
-Year
-Laureate name
-Country
-Prize share
-Motivation text
-Gender
-Organization / affiliation
+Fields Include:<br>
+Prize category<br>
+Year<br>
+Laureate name<br>
+Country<br>
+Prize share<br>
+Motivation text<br>
+Gender<br>
+Organization / affiliation<br>
 This dataset is ideal for visualization because it mixes categorical, temporal, geographic, and hierarchical data.
 
-2. Project Goals
-The project focuses on answering questions such as:
-Which countries have produced the most Nobel laureates?
-How have prize categories grown or changed over time?
-Which categories dominate different decades?
-How do scientific categories compare to peace and literature?
-What long-term global patterns are visible?
-To answer these, I created a series of prototypes, each introducing different interactions and encoding techniques.
 
+# Project Goals
+The project focuses on answering questions such as:<br>
+Which countries have produced the most Nobel laureates?<br>
+How have prize categories grown or changed over time?<br>
+Which categories dominate different decades?<br>
+How do scientific categories compare to peace and literature?<br>
+What long-term global patterns are visible?<br>
+To answer these, I created a series of prototypes, each introducing different interactions and encoding techniques.<br>
 
 ---
 
