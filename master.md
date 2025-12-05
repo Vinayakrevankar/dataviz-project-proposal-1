@@ -38,16 +38,7 @@ This visualization establishes a baseline understanding of the dataset and helps
 VizHub - https://vizhub.com/Vinayakrevankar/bad3af9c4b7d4ee5a2b63a1add1f3ad2
 
 ---
-Prototype 2: Line Chart: Awards Over Time (by Category)
-This line chart displays year-by-year award counts for a selected category.<br>
-Interactions<br>
-Category dropdown<br>
-Hover tooltip showing year + count<br>
-Dot markers for individual years<br>
-Insights<br>
-Physics shows large activity early on and remains steady<br>
-Peace awards have several years where no prize was granted<br>
-Scientific fields grow more sharply in later decades<br>
+Prototype 2: Line Chart (Nobel Prizes per Decade by Category) I created a line chart showing Nobel Prizes awarded per decade, broken down by category (Medicine, Physics, Chemistry, Literature, Peace, Economics). This visualization highlights: Medicine, Physics, and Chemistry dominate throughout the 20th century. Economics appears only after 1969. Peace and Literature remain consistently smaller in number. Peaks and dips align with historical events.
 
 
 <img width="1228" height="732" alt="image" src="https://github.com/user-attachments/assets/1e6d7d19-3f0e-4574-a2ab-218a2f5e80c7" />
@@ -64,16 +55,7 @@ VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 ---
 
-Prototype 3: Choropleth Map: Geographic Distribution <br>
-This map encodes Nobel Prize counts geographically.<br>
-Features<br>
-Country coloring based on award totals<br>
-Tooltip on hover<br>
-Gradient legend<br>
-Insights<br>
-North America and Western Europe dominate<br>
-Asian representation rises in modern decades<br>
-Very few African countries appear<br>
+Prototype 3: Choropleth Map – Nobel Prizes Won by Country I created a choropleth map showing the global distribution of Nobel Prizes by country, based on the laureate’s birth country or affiliated organization. Each country is shaded according to the number of prizes associated with it — darker shades indicate more laureates. This visualization helps reveal geographic trends in Nobel achievements: The United States, United Kingdom, Germany, and France appear as major hubs for Nobel winners. Countries in Europe and North America dominate the upper ranges, while most regions in Africa and parts of Asia have lighter shades, indicating fewer laureates. The map uses an intuitive color gradient and legend for clear interpretation. This phase shifts the project focus from purely categorical or temporal analysis to spatial understanding, showing how Nobel recognition is distributed around the world
 
 
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
@@ -108,11 +90,7 @@ Pop, Dance Pop, and Hip Hop maintain consistent high popularity throughout the d
 A surge in EDM, Tropical House, and Alternative R&B is visible between 2013–2017, reflecting global electronic trends.
 Some niche genres like Baroque Pop or Irish Singer-Songwriter appear sporadically, suggesting momentary regional or viral influence.
 Popularity diversification increased post-2015, showing more evenly distributed interest across genres.
-Design Notes:
-Implemented in D3.js with a color scale from light (low popularity) to dark (high popularity).
-Dataset sourced from Spotify API / Kaggle data.
-Each rectangle represents the mean popularity value of a genre-year pair.
-The color legend provides intuitive reference for trend strength.
+
 
 <img width="1260" height="724" alt="image" src="https://github.com/user-attachments/assets/fae25d03-3287-44bf-9587-fb8cf601391c" />
 
@@ -155,8 +133,7 @@ I created an interactive scatter plot to visualize how songs vary in Energy and 
 VizHub - <a href="https://vizhub.com/Vinayakrevankar/788a38aa88704de795301daf53b07694?file=App.js"> Prototype Link </a>
 
 
-## Dashboard
-This week, I explored a new dataset: The Oscar Awards Dataset from Kaggle.
+## Dashboard: The Oscar Awards Dataset from Kaggle.
 It contains detailed historical information on Academy Award nominations and wins, including films, nominees, award categories, and award years.
 The dashboard visualizes different facets of Oscar history using multiple linked, interactive views.
 
@@ -269,7 +246,4 @@ Early decades have fewer films due to smaller industry scale
 <img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
 
 VizHub - <a href="https://vinayakrevankar.com/data-visualization/"> Prototype Link </a> 
-
-How should I handle shared prizes (1/2, 1/3, 1/4 shares) — count as one laureate each, or weight by share?
-
 
