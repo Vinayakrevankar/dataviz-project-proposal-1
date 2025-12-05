@@ -18,20 +18,20 @@ Organization / affiliation<br>
 This dataset is ideal for visualization because it mixes categorical, temporal, geographic, and hierarchical data.
 
 Dataset: Spotify Tracks Dataset (Kaggle)
-Coverage: 2010–2019
-Fields Include:
-Track name
-Artist
-Genre / Subgenre
-Popularity score
-Danceability
-Energy
-Acousticness
-Instrumentalness
-Liveness
-Tempo
-Duration
-Release year
+Coverage: 2010–2019<br>
+Fields Include:<br>
+Track name<br>
+Artist<br>
+Genre / Subgenre<br>
+Popularity score<br>
+Danceability<br>
+Energy<br>
+Acousticness<br>
+Instrumentalness<br>
+Liveness<br>
+Tempo<br>
+Duration<br>
+Release year<br>
 This dataset is ideal for visualization because it contains rich quantitative attributes (energy, danceability, popularity), categorical attributes (genres), and temporal attributes (years). It allows analysis of music trends over a decade, genre-level evolution, and relationships between musical properties.
 
 
