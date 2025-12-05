@@ -58,24 +58,24 @@ This dataset allows exploration across multiple analytical dimensions, including
 
 # Project Goals
 
-Nobel Prize Dataset Goals
-Which countries have produced the most Nobel laureates?
-How have prize categories grown or changed over time?
-Which categories dominate different decades?
-How do scientific categories compare to Peace and Literature categories?
-What long-term global or hierarchical patterns are visible across laureates, categories, and countries?
+Nobel Prize Dataset Goals<br>
+Which countries have produced the most Nobel laureates?<br>
+How have prize categories grown or changed over time?<br>
+Which categories dominate different decades?<br>
+How do scientific categories compare to Peace and Literature categories?<br>
+What long-term global or hierarchical patterns are visible across laureates, categories, and countries?<br>
 
-Spotify Dataset Goals
-How has the popularity of different music genres changed over the 2010–2019 decade?
-Which genres experienced major surges or declines during specific periods (e.g., rise of EDM, Tropical House)?
-How do track attributes such as energy and danceability vary across genres?
+Spotify Dataset Goals<br>
+How has the popularity of different music genres changed over the 2010–2019 decade?<br>
+Which genres experienced major surges or declines during specific periods (e.g., rise of EDM, Tropical House)?<br>
+How do track attributes such as energy and danceability vary across genres?<br>
 
-Oscar Dataset Goals
-How do Oscar nominations and wins vary across decades?
-Which categories grow significantly due to technological shifts (e.g., VFX, Sound Editing)?
-How do major categories like Acting and Directing compare with technical and production awards?
-Which films and individuals have historically dominated the Oscars?
-How does the structure of awards (Class → Category → Film) reveal deeper relationships within the industry?
+Oscar Dataset Goals<br>
+How do Oscar nominations and wins vary across decades?<br>
+Which categories grow significantly due to technological shifts (e.g., VFX, Sound Editing)?<br>
+How do major categories like Acting and Directing compare with technical and production awards?<br>
+Which films and individuals have historically dominated the Oscars?<br>
+How does the structure of awards (Class → Category → Film) reveal deeper relationships within the industry?<br>
 
 ---
 
