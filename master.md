@@ -114,7 +114,7 @@ Some niche genres like Baroque Pop or Irish Singer-Songwriter appear sporadicall
 Popularity diversification increased post-2015, showing more evenly distributed interest across genres.
 
 
-<img width="1260" height="724" alt="image" src="https://github.com/user-attachments/assets/fae25d03-3287-44bf-9587-fb8cf601391c" />
+<img width="952" height="598" alt="image" src="https://github.com/user-attachments/assets/378d93ee-f347-421f-8dd5-92a1a52c03f9" />
 
 VizHub - https://vizhub.com/Vinayakrevankar/6582b154c0b54ce4a5ca8a039b31e788
 
