@@ -41,7 +41,7 @@ To explore these questions, I created multiple visualization prototypes, each ad
 
 ## 3. Prototype Visualizations
 
-### Prototype 1 - Bar Chart: Nobel Prizes by Country
+### Prototype 1 - Bar Chart: Nobel Prizes by Category
 
 This chart ranks countries by total number of Nobel Prizes.
 
@@ -59,9 +59,9 @@ Bar charts are ideal for comparing categorical data. Sorting the bars makes rank
 - Western Europe shows dense representation.  
 - There is a long tail of countries with only 1–3 laureates.
 
-<img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
+<img width="1358" height="782" alt="image" src="https://github.com/user-attachments/assets/488302e1-15ad-4eab-ab98-7c51ffbc441b" />
 
-VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
+VizHub - https://vizhub.com/Vinayakrevankar/bad3af9c4b7d4ee5a2b63a1add1f3ad2
 
 ---
 
