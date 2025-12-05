@@ -5,7 +5,7 @@ Data Visualization Project
 
 Dataset: The Nobel Prize Dataset (Kaggle)
 
-Coverage: 1901–2024
+Coverage: 1901-2024
 Fields Include:<br>
 Prize category<br>
 Year<br>
@@ -55,7 +55,7 @@ VizHub - https://vizhub.com/Vinayakrevankar/d662cff112534331abc0c852b3910070
 
 ---
 
-Prototype 3: Choropleth Map – Nobel Prizes Won by Country I created a choropleth map showing the global distribution of Nobel Prizes by country, based on the laureate’s birth country or affiliated organization. Each country is shaded according to the number of prizes associated with it — darker shades indicate more laureates. This visualization helps reveal geographic trends in Nobel achievements: The United States, United Kingdom, Germany, and France appear as major hubs for Nobel winners. Countries in Europe and North America dominate the upper ranges, while most regions in Africa and parts of Asia have lighter shades, indicating fewer laureates. The map uses an intuitive color gradient and legend for clear interpretation. This phase shifts the project focus from purely categorical or temporal analysis to spatial understanding, showing how Nobel recognition is distributed around the world
+Prototype 3: Choropleth Map - Nobel Prizes Won by Country I created a choropleth map showing the global distribution of Nobel Prizes by country, based on the laureate’s birth country or affiliated organization. Each country is shaded according to the number of prizes associated with it — darker shades indicate more laureates. This visualization helps reveal geographic trends in Nobel achievements: The United States, United Kingdom, Germany, and France appear as major hubs for Nobel winners. Countries in Europe and North America dominate the upper ranges, while most regions in Africa and parts of Asia have lighter shades, indicating fewer laureates. The map uses an intuitive color gradient and legend for clear interpretation. This phase shifts the project focus from purely categorical or temporal analysis to spatial understanding, showing how Nobel recognition is distributed around the world
 
 
 <img width="964" height="540" alt="image" src="https://github.com/user-attachments/assets/51e8b6d0-9c58-4315-a092-f2bf2a78a6fb" />
@@ -64,7 +64,7 @@ VizHub - https://vizhub.com/Vinayakrevankar/dfa78c8e0bc843c4a74429d82a474142
 
 ---
 
-Prototype 4: Treemap – Hierarchical Distribution of Nobel Prizes
+Prototype 4: Treemap - Hierarchical Distribution of Nobel Prizes
 I created a Treemap visualizing Nobel Prizes hierarchically by category and country, where each block’s size reflects the number of laureates.
 This visualization builds on the previous map by shifting from geographical location to hierarchical relationships, making it easier to see which countries lead within each prize category.
 Key Observations:
@@ -82,12 +82,12 @@ VizHub - https://vizhub.com/Vinayakrevankar/53e394cc97c9490487ca9535e4bdad09
 
 --- 
 
-Prototype 5: Spotify Genre Popularity Heatmap (2010–2019)
+Prototype 5: Spotify Genre Popularity Heatmap (2010-2019)
 I created a Heatmap visualization displaying average song popularity by genre and year from 2010 to 2019 using D3.js.
 Each cell’s color corresponds to the mean popularity score of songs within that genre for a given year.
 Key Observations:
 Pop, Dance Pop, and Hip Hop maintain consistent high popularity throughout the decade.
-A surge in EDM, Tropical House, and Alternative R&B is visible between 2013–2017, reflecting global electronic trends.
+A surge in EDM, Tropical House, and Alternative R&B is visible between 2013-2017, reflecting global electronic trends.
 Some niche genres like Baroque Pop or Irish Singer-Songwriter appear sporadically, suggesting momentary regional or viral influence.
 Popularity diversification increased post-2015, showing more evenly distributed interest across genres.
 
@@ -160,8 +160,8 @@ Trends in award volumes across decades
 Growth in new categories (e.g., VFX, Sound Editing, Animated Film)
 Stability of core acting categories
 Interactions
-Start Decade Slider – chooses the beginning decade range
-End Decade Slider – chooses the ending decade
+Start Decade Slider - chooses the beginning decade range
+End Decade Slider - chooses the ending decade
 The stacked chart updates dynamically to show only the selected decade window
 Color legend identifies each award category clearly
 Insights
@@ -172,21 +172,21 @@ Acting, directing, and writing remain consistent across decades
 4.⁠ ⁠Award Trends Over Years (Category Trend Line)
 A single-category trend line showing how many nominations a specific category receives each year.
 Interactions
-Category Dropdown – switch between categories (e.g., Best Picture, Actor in a Leading Role)
+Category Dropdown - switch between categories (e.g., Best Picture, Actor in a Leading Role)
 Line updates instantly to show year-by-year variation
 Insights
 Some categories show early spikes (e.g., acting awards in the 1930s)
 Technical categories appear only in later decades
 Categories like “Best Picture” stabilize over time
 
-5.⁠ ⁠Film–Category Network Graph (Force-Directed Network)
+5.⁠ ⁠Film-Category Network Graph (Force-Directed Network)
 A force-directed graph showing connections between top-award-winning films and the categories they won.
 Nodes
 Blue Nodes → Films
 Green Nodes → Award Categories
 Interactions
-Top Films Slider – choose how many of the most awarded films to display (e.g., Top 10, Top 20)
-Draggable Nodes – users can drag films or categories to explore clusters
+Top Films Slider - choose how many of the most awarded films to display (e.g., Top 10, Top 20)
+Draggable Nodes - users can drag films or categories to explore clusters
 Hover tooltips show film titles or category names
 Insights
 Films like Titanic, Gone with the Wind, and Ben-Hur form strong clusters
@@ -196,7 +196,7 @@ Rare clusters appear for discontinued categories
 6.⁠ ⁠Top Award Winners (Horizontal Bar Chart)
 A ranked bar chart of the top individuals or studios by number of Oscars won.
 Interactions
-Top N Slider – adjust how many top winners to display
+Top N Slider - adjust how many top winners to display
 Bars dynamically resize
 Tooltip shows exact award count
 Insights
@@ -214,7 +214,7 @@ Categories with the largest number of films involved
 Films that dominate particular award areas
 Overall structure of Oscar nominations by type
 
-8.⁠ ⁠Class–Category–Film Sunburst (Radial Hierarchy)
+8.⁠ ⁠Class-Category-Film Sunburst (Radial Hierarchy)
 A three-level sunburst showing:
 Outer Ring → Films
 Middle Ring → Award Categories
@@ -240,7 +240,7 @@ Sound and technical awards make up a large portion of modern Oscars
 Shows how many films received nominations or wins in each decade.
 Insights
 Dramatic growth after 1970s
-Spike in decades with industry expansion (e.g., 1990s–2010s) 
+Spike in decades with industry expansion (e.g., 1990s-2010s) 
 Early decades have fewer films due to smaller industry scale
 
 <img width="2984" height="5438" alt="image" src="https://github.com/user-attachments/assets/16d833b2-992d-4957-a079-a97643f88a5b" />
